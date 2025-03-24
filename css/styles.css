@@ -6,9 +6,8 @@ body {
 ul,
 ol {
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -28,15 +27,15 @@ img {
   display: block;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-.header {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -48,6 +47,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
@@ -57,6 +58,8 @@ img {
   align-items: center;
 }
 .nav-link {
+  padding: 24px; 0;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -65,6 +68,7 @@ img {
 }
 .nav-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .header-logo {
@@ -91,12 +95,13 @@ img {
   gap: 40px;
 }
 .contacts-link {
+  display: block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 24px; 0;
+  padding-bottom: 24px; 0;
 }
 
 .section-main {
