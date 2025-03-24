@@ -57,6 +57,10 @@ img {
   display: flex;
   align-items: center;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .nav-link {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -141,7 +145,7 @@ img {
 .main-btn:focus {
   background: #404bbf;
 }
-.section-title {
+.section {
   padding-top: 120px;
 }
 .list {
