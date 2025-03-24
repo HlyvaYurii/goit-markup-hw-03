@@ -58,7 +58,8 @@ img {
   align-items: center;
 }
 .nav-link {
-  padding: 24px; 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -100,8 +101,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 24px; 0;
-  padding-bottom: 24px; 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .section-main {
@@ -139,6 +140,9 @@ img {
 .main-btn:hover,
 .main-btn:focus {
   background: #404bbf;
+}
+.section-title {
+  padding-top: 120px;
 }
 .list {
   display: flex;
