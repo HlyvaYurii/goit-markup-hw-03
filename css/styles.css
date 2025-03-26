@@ -60,7 +60,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px;
+  padding: 24px 0;
   margin-right: 76px;
 }
 .logo-part {
@@ -261,7 +261,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: start;
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 8px;
@@ -272,6 +272,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: start;
 }
 .page-footer {
   background: #2e2f42;
@@ -289,6 +290,9 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-logo {
+  padding-left: 17px;
 }
 .logo-part-footer {
   color: #f4f4fd;
