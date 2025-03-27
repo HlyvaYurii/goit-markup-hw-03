@@ -292,6 +292,7 @@ img {
 }
 .footer-logo {
   padding-left: 17px;
+  margin-bottom: 16px;
 }
 
 .logo-part-footer {
@@ -304,5 +305,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
 }
